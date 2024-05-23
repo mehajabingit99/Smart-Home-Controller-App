@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="20sp"
+    android:background="@color/blackNavy"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Theme"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:paddingBottom="20sp"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp" >
+
+        <Button
+            android:id="@+id/dashboardBlack"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Black Home"
+            android:textSize="20sp"
+            android:background="@drawable/border"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/dashboardLite"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Lite Home"
+            android:textSize="20sp"
+            android:background="@drawable/border"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
